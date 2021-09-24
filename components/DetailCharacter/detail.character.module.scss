@@ -1,0 +1,29 @@
+.detail-character {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    .detail-character__image {
+        position: relative;
+        width: 20rem;
+        height: 20rem;
+    }
+    .detail-character__info {
+        display: flex;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+        flex-direction: column;
+        label {
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+        span {
+            font-size: 1.1rem;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,24 @@
+.search-character {
+    height: 3rem;   
+    width: 14rem;
+    border-radius: 2rem;
+    text-align: center;
+    &:focus {
+        outline: none;
+    }
+    &::-webkit-input-placeholder {
+        text-align: center;
+     }
+     
+     &:-moz-placeholder { /* Firefox 18- */
+        text-align: center;  
+     }
+     
+     &::-moz-placeholder {  /* Firefox 19+ */
+        text-align: center;  
+     }
+     
+     &:-ms-input-placeholder {  
+        text-align: center; 
+     }
+}
